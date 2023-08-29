@@ -1,0 +1,25 @@
+.all p{
+    width: 30%;
+    float:left;
+    padding: 10px;
+}
+.all p:nth-child(1){
+    background-color: aqua;
+    text-align: justify;
+}
+.all p:nth-child(2){
+    text-align: justify;
+    background-color: lightseagreen;
+}
+.all p:nth-child(4){
+    text-align: justify;
+    background-color: seagreen;
+    clear: left;
+}
+.all p:nth-child(3){
+    text-align: justify;
+    background-color: mediumseagreen;
+}
+@media screen and (min-width:801px) {
+   
+}

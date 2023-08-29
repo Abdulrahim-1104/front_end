@@ -1,0 +1,34 @@
+p{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+}
+.box{
+    float: right;
+     width: 200px;
+     height: 200px;
+     border: 2px solid;
+     background:linear-gradient(to top right,red,blue,violet);
+}
+.boxx{
+    width: 200px;
+     height: 200px;
+     margin-top: 20px;
+     border: 2px solid;
+     background:radial-gradient(blue,blue,violet);
+}
+.boxxx{
+    float: right;
+    width: 200px;
+     height: 200px;
+     margin-top: 20px;
+     border: 2px solid;
+     background: repeating-linear-gradient(blue 20px,green 30px);
+}
+.boxxxx{
+    width: 200px;
+     height: 200px;
+     margin-top: 20px;
+     border: 2px solid;
+     background: repeating-radial-gradient(blue 20px,green 30px);
+}

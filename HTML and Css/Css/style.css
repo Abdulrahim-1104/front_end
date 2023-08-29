@@ -1,0 +1,26 @@
+/* for heading paragraph and etc..... sigle  element*/
+h1{
+    color: darkgreen;
+    text-align: center;
+}
+h3{
+    color: gold;
+    text-align: center;
+}
+/* Class selector */
+.greentxt{
+    color: green;
+    text-decoration:solid;
+}
+/*ID selector*/
+#redtxt{
+    color: red;
+}
+/* Child and dencetent selector -> using space*/
+div >ol{
+    color: blueviolet;
+}
+/* Adjacent selector and sibling selector->using ~ this symbol*/
+h1+h2{
+    color: black;
+}

@@ -1,0 +1,103 @@
+body{
+    background:rgba(0,0,0,0.7)url("netflixBackgroud.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color:white;
+}
+
+.logo{
+    max-width: 39%;
+    filter: contrast(100);
+}
+.logo1{
+margin-left:5px;
+position: relative;
+bottom: 25px;
+left: 9px;
+}
+.regform h4{
+     text-align: left;
+     padding-bottom: 20px;
+     
+}
+.regform{
+    background-color:rgb(0,0,0,60%);
+    width: 330px;
+    margin: auto;
+    padding: 50px;
+    margin-top:auto ;
+    position: relative;
+    bottom: 80px;
+}
+   
+.input input{
+    margin: 7px;
+    padding: 18px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #333;
+    border-color: #333;
+    color:white;
+}
+.input input:focus{
+    font-size: 14px;
+}
+.btn{
+color: white;
+padding:15px;
+width:101%;
+text-align: center;
+background-color: red;
+box-sizing:border-box;
+margin-left: 7px;
+font-size: 18px;
+margin-top:45px;
+}
+.checkbox{
+    width: 150%;
+    color: #b3b3b3;
+    padding-top: 10px;
+    padding-left: 7px;
+    font-size: 13px;
+}
+.nh{
+    display: inline;
+}
+#nh{
+    width: 100%;
+    border: 2px white;
+    text-decoration: none;
+    color: #b3b3b3;
+    padding-left: 150px;
+}
+#su{
+    color:white;
+    text-decoration: none;
+    padding-left:10px ;
+}
+.para1{
+    color: #b3b3b3;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+#para2{
+    width: 100%;
+    color: #b3b3b3;
+    font-size: 12px;
+    padding-left: 10px;
+    text-align: justify;
+}
+.blue{
+    color:#0071eb;
+}
+#ln{
+    cursor: pointer;
+    background-color: transparent;
+    font-size: inherit;
+}
+#ln::backdrop{
+    display: none;
+}
+
+

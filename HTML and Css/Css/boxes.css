@@ -1,0 +1,42 @@
+h1{
+    border: 20px solid ;
+ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    width:50%;
+        margin-left:auto;
+        margin-right: auto;
+        text-align: center;
+        background-color: rgb(255, 166, 0);
+        border-image: url(/Photos/css-border.png); 
+}
+forp{
+   border: 1px solid;
+   min-height: 200px;
+   max-width:  1500px;
+   margin: 20px auto 20px auto;
+}
+p{
+    border: 1px solid black;
+    width: 50%;    
+    margin: 20px auto 20px auto;
+    background-color: antiquewhite; 
+    padding: 20px;
+    text-align: justify;
+    border-radius: 15px;
+    box-shadow: 2px 2px 22px 2px;
+}
+li{
+    text-align: center;
+    border: 1px;
+    border-style: ridge;
+    display: inline;
+    margin: 20px;
+    padding: 15px;
+    background-color: aqua;
+    border-radius: 53px;
+}
+.bar{
+    text-align: center;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="result.html" method="GET">
+        <div>
+            <label for="firstname"></label>
+            <input type="text" placeholder="First Name" name="firstname" id="firstname" required>
+        </div>
+        <br>
+<div>
+    <label for="lastname"></label>
+    <input type="text" placeholder="Last Name" name="lastname" id="lastname" required>
+</div>
+<br>
+<div>
+    <label for="createpassword"></label>
+    <input type="password" placeholder="Create New Password" name="createpassword" required minlength="8">
+</div>
+<br>
+<div>
+    <label for="re-enteredpassword"></label>
+    <input required type="password" placeholder="Re-entered Password" id="re-enteredpassword" name="re-enteredpassword">
+
+</div>
+<br>
+<div>
+    <input  type="email" name="email" id="email" placeholder="Enter you Email" required>
+</div>
+<br>
+<div>
+    <input  type="tel" name="mobileno" id="mobileno" placeholder="Mobile No" size="8" required >
+</div>
+<br>
+<div>
+    <label for="dob"></label>
+    <input type="date" name="dob" id="dob" required>
+</div>
+<br>
+<div>
+    <input type="radio" name="gender" id="male" value="male" required>
+    <label for="male">Male</label>
+</div>
+<div>
+    <input type="radio" name="gender" id="female" required>
+    <label for="female">Female</label>
+</div>
+<br>
+<div>
+   <textarea name="aboutme" id="aboutme" cols="30" rows="10" placeholder="About me"></textarea>
+</div>
+<br>
+<div>
+    <input type="checkbox" name="terms" id="terms" required>
+    <label for="terms">I accept all terms and conditions</label>
+</div>
+<br>
+<div>
+    <input type="file" name="resume" id="resume" required>
+</div>
+<br>
+<div>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<button type="submit" >Sign Up</button>
+&emsp;&emsp;<button type="reset">Reset</button>
+</div>
+    </form>
+</body>
+</html>
